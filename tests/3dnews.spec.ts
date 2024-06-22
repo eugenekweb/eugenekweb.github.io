@@ -19,7 +19,7 @@ test.beforeEach(async ({ page }, testInfo) => {
   }
 });
 
-test.only(
+test(
   "Check that HomePage has title containing 'интересное из мира IT'",
   { tag: "@all" },
   async ({ page }) => {
